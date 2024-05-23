@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待辦事項清單</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>待辦事項清單</h1>
+            <p>高效管理您的任務</p>
+        </header>
+        <main>
+            <div class="input-container">
+                <input type="text" id="new-task" placeholder="新增任務...">
+                <button id="add-task">新增任務</button>
+            </div>
+            <ul id="task-list"></ul>
+            <section class="filter-section">
+                <h2>篩選</h2>
+                <button id="all-tasks">全部</button>
+                <button id="completed-tasks">已完成</button>
+                <button id="pending-tasks">未完成</button>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
